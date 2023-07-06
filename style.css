@@ -786,4 +786,12 @@ p {
     
     }
   }
-  
+
+.header .justforthis {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  top: 580px
+}
