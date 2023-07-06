@@ -14,24 +14,24 @@
 </head>
 <body>
     <section class="header">
-        <nav>
-          <a href="index.html"><img src="image/logo.png" alt="Logo Image"></a>
-          <input type="checkbox" id="navCheckbox" class="nav-checkbox">
-          <label for="navCheckbox" class="nav-toggle">
-            <i class="fas fa-bars"></i>
-            <i class="fas fa-times"></i>
-          </label>
-          <ul class="nav-links">
-           <li><a href="index.html">HOME</a></li>
-                <li><a href="aboutus.html">ABOUT</a></li>
-                <li><a href="course.html">COURSE</a></li>
-                <li><a href="blog.html">BLOG</a></li>
-                <li><a href="contact.html">CONTACT</a></li>
-          </ul>
-        </nav>
+       <nav>
+            <a href="index.html"><img src="image/logo.png" alt="Logo Image"></a>
+            <div class="nav-links" id="navLinks">
+             <i class="fa fa-window-close" aria-hidden="true" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="aboutus.html">ABOUT</a></li>
+                        <li><a href="course.html">COURSE</a></li>
+                        <li><a href="blog.html">BLOG</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" aria-hidden="true" onclick="showMenu()"></i>
+    
+            </nav>
         <!-- Rest of the header content -->
       </section>
-              <h1>Contact Us</h1>
+              <h1 class = "justforthis">Contact Us</h1>
     </section>
 
     <!-- CONTACT US SECTION -->
