@@ -200,6 +200,9 @@ const observer = new IntersectionObserver((entries) => {
   });
 });
 
+// Start observing the section
+observer.observe(section);
+
 function showMenu() {
             var navLinks = document.getElementById("navLinks");
             navLinks.classList.add("active");
